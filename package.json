@@ -1,0 +1,38 @@
+{
+    "name": "cozypink",
+    "publisher": "niudai",
+    "author": {
+        "name": "niudai",
+        "email": "1244453736@qq.com"
+    },
+    "displayName": "cozypink",
+    "description": "A beautiful theme with lovable pink background. You would feel more relaxed with this theme.",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/niudai/CozyPink.git"
+    },
+    "homepage": "https://github.com/niudai/CozyPink/blob/master/README.md",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "icon": "images/cozypink-icon.png",
+    "keywords": [
+        "theme",
+        "beautiful",
+        "cozy",
+        "pink"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "cozypink",
+                "uiTheme": "vs",
+                "path": "./themes/cozypink-color-theme.json"
+            }
+        ]
+    }
+}
